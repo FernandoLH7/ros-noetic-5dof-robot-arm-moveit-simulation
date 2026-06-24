@@ -1,5 +1,13 @@
 # ROS Noetic 5DOF Robot Arm Grasp Simulation
 
+<p align="center">
+  <img src="media/video_urdf5dofmoveit_preview.gif" alt="Funcionamiento del brazo robotico 5DOF en Gazebo y MoveIt" width="570">
+</p>
+
+<p align="center">
+  <a href="media/video_urdf5dofmoveit_sin_audio.mp4">Ver video completo sin audio</a>
+</p>
+
 Simulación en ROS Noetic de un brazo robótico de 5 grados de libertad con gripper, integración en Gazebo, visualización en RViz y planeación de movimiento con MoveIt. El workspace permite cargar el modelo URDF del robot, inicializar controladores ROS, ejecutar MoveIt y validar rutinas de movimiento predefinidas para una escena de agarre.
 
 El repositorio contiene únicamente el código fuente necesario para reconstruir el workspace. Los directorios generados por compilación, como `build/`, `devel/`, `logs/` y `.catkin_tools/`, no se versionan porque deben crearse localmente con `catkin build`.
