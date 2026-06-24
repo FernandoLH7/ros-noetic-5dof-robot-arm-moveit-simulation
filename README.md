@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="media/video_urdf5dofmoveit_sin_audio.mp4">Ver video completo sin audio</a>
+  <a href="media/video_urdf5dofmoveit_sin_audio.mp4">Ver video completo</a>
 </p>
 
 Simulación en ROS Noetic de un brazo robótico de 5 grados de libertad con gripper, integración en Gazebo, visualización en RViz y planeación de movimiento con MoveIt. El workspace permite cargar el modelo URDF del robot, inicializar controladores ROS, ejecutar MoveIt y validar rutinas de movimiento predefinidas para una escena de agarre.
